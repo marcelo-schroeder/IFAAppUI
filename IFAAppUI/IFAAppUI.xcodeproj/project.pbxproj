@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BB1051D4978F33493BAEC066 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B2D47207A3E7A55B24FDDF /* Pods.framework */; };
 		F74ACC1A1BEBFC3D00C4B73E /* UIImage+IFA_ECImageWithUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650E921BEBF30B00B97932 /* UIImage+IFA_ECImageWithUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F74ACC1B1BEBFCE200C4B73E /* IFAAppUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7650ABF1BE9548000B97932 /* IFAAppUI.framework */; };
 		F7650ED71BEBF30B00B97932 /* IFA_ECSlidingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650E8F1BEBF30B00B97932 /* IFA_ECSlidingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7650ED81BEBF30B00B97932 /* IFA_ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650E901BEBF30B00B97932 /* IFA_ECSlidingViewController.m */; };
 		F7650EDB1BEBF30B00B97932 /* UIImage+IFA_ECImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650E931BEBF30B00B97932 /* UIImage+IFA_ECImageWithUIView.m */; };
@@ -215,6 +216,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F74ACC1B1BEBFCE200C4B73E /* IFAAppUI.framework in Frameworks */,
 				BB1051D4978F33493BAEC066 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
