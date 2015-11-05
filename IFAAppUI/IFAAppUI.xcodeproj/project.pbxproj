@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB1051D4978F33493BAEC066 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B2D47207A3E7A55B24FDDF /* Pods.framework */; };
+		F74ACC1A1BEBFC3D00C4B73E /* UIImage+IFA_ECImageWithUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650E921BEBF30B00B97932 /* UIImage+IFA_ECImageWithUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7650ED71BEBF30B00B97932 /* IFA_ECSlidingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650E8F1BEBF30B00B97932 /* IFA_ECSlidingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7650ED81BEBF30B00B97932 /* IFA_ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650E901BEBF30B00B97932 /* IFA_ECSlidingViewController.m */; };
 		F7650EDB1BEBF30B00B97932 /* UIImage+IFA_ECImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650E931BEBF30B00B97932 /* UIImage+IFA_ECImageWithUIView.m */; };
@@ -82,6 +83,8 @@
 		F7650F301BEBF4A900B97932 /* IFAFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7650F2F1BEBF4A900B97932 /* IFAFoundation.framework */; };
 		F7650F321BEBF4AC00B97932 /* IFACoreUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7650F311BEBF4AC00B97932 /* IFACoreUI.framework */; };
 		F7650F351BEBF87300B97932 /* IFAUserNotificationSettingsManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650F341BEBF87300B97932 /* IFAUserNotificationSettingsManagerTests.m */; };
+		F7650F391BEBFA8800B97932 /* IFACoreUI.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7650F311BEBF4AC00B97932 /* IFACoreUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F7650F3A1BEBFA8800B97932 /* IFAFoundation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = F7650F2F1BEBF4A900B97932 /* IFAFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +96,20 @@
 			remoteInfo = IFAAppUI;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7650F381BEBFA7800B97932 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F7650F391BEBFA8800B97932 /* IFACoreUI.framework in CopyFiles */,
+				F7650F3A1BEBFA8800B97932 /* IFAFoundation.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		11073E5F26F126F044506310 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -427,6 +444,7 @@
 			files = (
 				F7650EF81BEBF30B00B97932 /* IFAApplicationLogViewController.h in Headers */,
 				F7650F131BEBF30B00B97932 /* IFAThirdPartyCodeCreditsViewController.h in Headers */,
+				F74ACC1A1BEBFC3D00C4B73E /* UIImage+IFA_ECImageWithUIView.h in Headers */,
 				F7650EEC1BEBF30B00B97932 /* IFAAbstractPagingContainerViewController.h in Headers */,
 				F7650EFE1BEBF30B00B97932 /* IFADynamicPagingContainerViewControllerDataSource.h in Headers */,
 				F7650F0F1BEBF30B00B97932 /* IFASplitViewController.h in Headers */,
@@ -490,6 +508,7 @@
 				F7650AC51BE9548000B97932 /* Sources */,
 				F7650AC61BE9548000B97932 /* Frameworks */,
 				F7650AC71BE9548000B97932 /* Resources */,
+				F7650F381BEBFA7800B97932 /* CopyFiles */,
 				658593824C645A0AC34D0E84 /* Embed Pods Frameworks */,
 				F44E18A9534BF0A04E49233C /* Copy Pods Resources */,
 			);

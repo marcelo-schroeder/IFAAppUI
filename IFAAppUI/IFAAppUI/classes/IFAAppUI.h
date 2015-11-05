@@ -34,6 +34,7 @@
 /*************/
 // IFA_ECSlidingViewController
 #import "IFA_ECSlidingViewController.h"
+#import "UIImage+IFA_ECImageWithUIView.h"
 // IFA_SVWebViewController
 #import "IFA_SVWebViewController.h"
 // IBActionSheet

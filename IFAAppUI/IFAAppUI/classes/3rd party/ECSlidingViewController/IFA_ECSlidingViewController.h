@@ -6,7 +6,6 @@
 //  Copyright (c) 2012 EdgeCase. All rights reserved.
 //
 
-#import "UIImage+IFA_ECImageWithUIView.h"
 @import IFACoreUI;
 
 /** Notification that gets posted when the underRight view will appear */
