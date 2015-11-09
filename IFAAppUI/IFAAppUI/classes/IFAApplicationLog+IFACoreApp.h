@@ -18,6 +18,8 @@
 //  limitations under the License.
 //
 
+#import "IFAApplicationLog.h"
+
 @interface IFAApplicationLog (IFACoreApp)
 
 @end
