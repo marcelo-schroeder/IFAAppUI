@@ -21,7 +21,7 @@
 #import "IFAAppUI.h"
 
 
-@implementation IFAApplicationLog (IFACoreApp)
+@implementation IFAApplicationLog (IFAAppUI)
 
 - (NSString*)ifa_displayValue {
     NSDateFormatter *l_dateFormatter = [[NSDateFormatter alloc] init];

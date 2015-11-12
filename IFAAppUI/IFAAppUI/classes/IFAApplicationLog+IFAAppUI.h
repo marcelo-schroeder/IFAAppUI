@@ -20,6 +20,6 @@
 
 #import "IFAApplicationLog.h"
 
-@interface IFAApplicationLog (IFACoreApp)
+@interface IFAApplicationLog (IFAAppUI)
 
 @end

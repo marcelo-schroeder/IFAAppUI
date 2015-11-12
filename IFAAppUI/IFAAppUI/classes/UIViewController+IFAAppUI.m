@@ -18,7 +18,7 @@
 #import "IFAAppUI.h"
 
 
-@implementation UIViewController (IFACoreApp)
+@implementation UIViewController (IFAAppUI)
 
 #pragma mark - Public
 
