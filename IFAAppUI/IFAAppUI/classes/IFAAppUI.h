@@ -18,7 +18,6 @@
 //  limitations under the License.
 //
 
-// Apple Frameworks
 #import <CoreData/CoreData.h>
 #import <CoreText/CoreText.h>
 #import <CoreLocation/CoreLocation.h>
@@ -28,6 +27,12 @@
 #import <GLKit/GLKit.h>
 #import <AdSupport/AdSupport.h>
 #import <Accelerate/Accelerate.h>
+
+//! Project version number for IFAAppUI.
+FOUNDATION_EXPORT double IFAAppUIVersionNumber;
+
+//! Project version string for IFAAppUI.
+FOUNDATION_EXPORT const unsigned char IFAAppUIVersionString[];
 
 /*************/
 /* 3rd party */
