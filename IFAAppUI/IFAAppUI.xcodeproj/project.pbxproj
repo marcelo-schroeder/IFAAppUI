@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1073807735B27B353577C85E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1073810A8C6B8295FE351358 /* LICENSE */; };
 		BB1051D4978F33493BAEC066 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B2D47207A3E7A55B24FDDF /* Pods.framework */; };
 		F74ACC1A1BEBFC3D00C4B73E /* UIImage+IFA_ECImageWithUIView.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650E921BEBF30B00B97932 /* UIImage+IFA_ECImageWithUIView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F74ACC1B1BEBFCE200C4B73E /* IFAAppUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7650ABF1BE9548000B97932 /* IFAAppUI.framework */; };
@@ -113,6 +114,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1073810A8C6B8295FE351358 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		11073E5F26F126F044506310 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		26B2D47207A3E7A55B24FDDF /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38AA2460098D8BD7E005D9AF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 				F7650AC01BE9548000B97932 /* Products */,
 				0AB487FB6ACE1B78F2FC1149 /* Pods */,
 				FCCD7584AF1D64F85CBD54E4 /* Frameworks */,
+				1073810A8C6B8295FE351358 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -572,6 +575,7 @@
 				F7650F281BEBF31400B97932 /* internalWebBrowserActivity@2x~iphone.png in Resources */,
 				F7650F271BEBF31400B97932 /* internalWebBrowserActivity@2x~ipad.png in Resources */,
 				F7650F2A1BEBF31400B97932 /* internalWebBrowserActivity~iphone.png in Resources */,
+				1073807735B27B353577C85E /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
