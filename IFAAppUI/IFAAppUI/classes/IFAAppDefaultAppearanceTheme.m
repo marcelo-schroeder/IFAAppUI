@@ -57,4 +57,12 @@
     return [UIApplication sharedApplication].delegate.window.tintColor;
 }
 
+- (UIStatusBarStyle)preferredStatusBarStyleForViewController:(UIViewController *)viewController {
+    if ([viewController isKindOfClass:[IFAAlertContainerViewController class]]) {
+        return [[UIApplication sharedApplication] statusBarStyle];
+    } else {
+        return [super preferredStatusBarStyleForViewController:viewController];
+    }
+}
+
 @end
