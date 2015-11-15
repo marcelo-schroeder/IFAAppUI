@@ -116,3 +116,8 @@ pod try IFAAppUI
 ## Latest API Documentation ##
 
 http://cocoadocs.org/docsets/IFAAppUI
+
+## 3rd Party Credits ##
+- [ECSlidingViewController](https://github.com/ECSlidingViewController/ECSlidingViewController)
+- [IBActionSheet](https://github.com/ianb821/IBActionSheet)
+- [SVWebViewController](https://github.com/TransitApp/SVWebViewController)
