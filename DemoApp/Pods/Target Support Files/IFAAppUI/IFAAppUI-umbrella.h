@@ -12,7 +12,7 @@
 #import "IFAAbstractWebBrowserActivity.h"
 #import "IFAAppDefaultAppearanceTheme.h"
 #import "IFAApplicationDelegate.h"
-#import "IFAApplicationLog+IFACoreApp.h"
+#import "IFAApplicationLog+IFAAppUI.h"
 #import "IFAApplicationLog.h"
 #import "IFAApplicationLogViewController.h"
 #import "IFAAppMapViewController.h"
@@ -30,10 +30,10 @@
 #import "IFASplitViewController.h"
 #import "IFAStaticPagingContainerViewController.h"
 #import "IFAThirdPartyCodeCreditsViewController.h"
-#import "IFAUIUtils+IFACoreApp.h"
+#import "IFAUIUtils+IFAAppUI.h"
 #import "IFAUserNotificationSettingsManager.h"
-#import "NSURL+IFACoreApp.h"
-#import "UIViewController+IFACoreApp.h"
+#import "NSURL+IFAAppUI.h"
+#import "UIViewController+IFAAppUI.h"
 
 FOUNDATION_EXPORT double IFAAppUIVersionNumber;
 FOUNDATION_EXPORT const unsigned char IFAAppUIVersionString[];

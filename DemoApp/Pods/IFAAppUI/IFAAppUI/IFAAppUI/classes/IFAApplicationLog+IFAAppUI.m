@@ -1,5 +1,5 @@
 //
-//  IFAApplicationLog+IFACategory.h
+//  IFAApplicationLog+IFACategory.m
 //  IFAAppUI
 //
 //  Created by Marcelo Schroeder on 6/05/11.
@@ -18,8 +18,17 @@
 //  limitations under the License.
 //
 
-#import "IFAApplicationLog.h"
+#import "IFAAppUI.h"
 
-@interface IFAApplicationLog (IFACoreApp)
+
+@implementation IFAApplicationLog (IFAAppUI)
+
+- (NSString*)ifa_displayValue {
+    NSDateFormatter *l_dateFormatter = [[NSDateFormatter alloc] init];
+    [l_dateFormatter setDateStyle:NSDateFormatterMediumStyle];
+    [l_dateFormatter setTimeStyle:NSDateFormatterMediumStyle];
+    NSString *l_formattedDate = [l_dateFormatter stringFromDate:self.date];
+    return [NSString stringWithFormat:@"%@: %@", l_formattedDate, self.title];
+}
 
 @end

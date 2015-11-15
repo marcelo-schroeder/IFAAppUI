@@ -64,8 +64,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAAppDefaultAppearanceTheme.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAApplicationDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAApplicationDelegate.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAApplicationLog+IFACoreApp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAApplicationLog+IFACoreApp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAApplicationLog+IFAAppUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAApplicationLog+IFAAppUI.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAApplicationLog.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAApplicationLog.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAApplicationLogViewController.h" isTestSource="false" />
@@ -98,14 +98,14 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAStaticPagingContainerViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAThirdPartyCodeCreditsViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAThirdPartyCodeCreditsViewController.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAUIUtils+IFACoreApp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAUIUtils+IFACoreApp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAUIUtils+IFAAppUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAUIUtils+IFAAppUI.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAUserNotificationSettingsManager.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/IFAUserNotificationSettingsManager.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/NSURL+IFACoreApp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/NSURL+IFACoreApp.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/UIViewController+IFACoreApp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/UIViewController+IFACoreApp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/NSURL+IFAAppUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/NSURL+IFAAppUI.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/UIViewController+IFAAppUI.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/classes/UIViewController+IFAAppUI.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/resources/3rd party/iconshock.com/internalWebBrowserActivity@2x~ipad.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/resources/3rd party/iconshock.com/internalWebBrowserActivity@2x~iphone.png" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFAAppUI/IFAAppUI/IFAAppUI/resources/3rd party/iconshock.com/internalWebBrowserActivity~ipad.png" isTestSource="false" />
@@ -338,8 +338,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIBarButtonItem+IFACoreUI.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIButton+IFACoreUI.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIButton+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIButton+IFAHelp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIButton+IFAHelp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIButton+IFACoreUI_Help.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIButton+IFACoreUI_Help.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UICollectionView+IFACoreUI.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UICollectionView+IFACoreUI.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIColor+IFACoreUI.h" isTestSource="false" />
@@ -358,14 +358,14 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UITableView+IFACoreUI.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UITableViewCell+IFACoreUI.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UITableViewCell+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UITableViewController+IFADynamicCellHeight.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UITableViewController+IFADynamicCellHeight.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UITableViewController+IFACoreUI_DynamicCellHeight.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UITableViewController+IFACoreUI_DynamicCellHeight.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIView+IFACoreUI.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIView+IFACoreUI.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIViewController+IFACoreUI.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIViewController+IFACoreUI.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIViewController+IFAHelp.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIViewController+IFAHelp.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIViewController+IFACoreUI_Help.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIViewController+IFACoreUI_Help.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIWebView+IFACoreUI.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/classes/UIWebView+IFACoreUI.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/IFACoreUI/IFACoreUI/IFACoreUI/resources/3rd party/billybarker.net/056-PlusCircle.png" isTestSource="false" />
@@ -596,6 +596,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
         </CLASSES>
         <SOURCES>
           <root url="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework/Headers" />
@@ -686,6 +687,7 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/7.0.0/include" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
+          <root url="file://$MODULE_DIR$/Pods/Headers/Private" />
         </SOURCES>
       </library>
     </orderEntry>

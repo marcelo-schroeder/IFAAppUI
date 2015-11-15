@@ -24,13 +24,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   IFAAppUI:
-    :commit: 64089ac278dad859906caf6269c0a37d78252938
+    :commit: 657b5feafaea755b76e3032eff27d64febd3a245
     :git: https://github.com/marcelo-schroeder/IFAAppUI.git
   IFACoreUI:
-    :commit: 04b8bb21348bb8cc80f3b1d148e6a16ad62080fc
+    :commit: 8e0e57e2d1e21765b364b9d41d391313618e139f
     :git: https://github.com/marcelo-schroeder/IFACoreUI.git
   IFAFoundation:
-    :commit: fe925a206576ccdb4aa22ee015526fcab01c2b2e
+    :commit: 4a60f036f96e58f6183c736172535d549592ed82
     :git: https://github.com/marcelo-schroeder/IFAFoundation.git
 
 SPEC CHECKSUMS:

@@ -17,7 +17,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UIViewController (IFACoreApp)
+@interface UIViewController (IFAAppUI)
 
 - (void)ifa_presentActivityViewControllerFromBarButtonItem:(UIBarButtonItem *)a_barButtonItem
                                                    webView:(UIWebView *)a_webView;

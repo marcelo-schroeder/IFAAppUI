@@ -1,0 +1,1 @@
+../../../IFACoreUI/IFACoreUI/IFACoreUI/classes/UITableViewController+IFACoreUI_DynamicCellHeight.h

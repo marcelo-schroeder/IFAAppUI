@@ -18,7 +18,7 @@
 #import <Foundation/Foundation.h>
 @import IFACoreUI;
 
-@interface IFAUIUtils (IFACoreApp)
+@interface IFAUIUtils (IFAAppUI)
 + (void)setKeyWindowRootViewController:(UIViewController *)a_viewController;
 
 + (void)setKeyWindowRootViewControllerToMainStoryboardInitialViewController;

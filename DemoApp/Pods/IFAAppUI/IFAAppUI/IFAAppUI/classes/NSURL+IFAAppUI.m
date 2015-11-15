@@ -18,7 +18,7 @@
 #import "IFAAppUI.h"
 
 
-@implementation NSURL (IFACoreApp)
+@implementation NSURL (IFAAppUI)
 
 #pragma mark - Public
 

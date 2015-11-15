@@ -116,7 +116,7 @@
 #import "UIAlertController+IFACoreUI.h"
 #import "UIBarButtonItem+IFACoreUI.h"
 #import "UIButton+IFACoreUI.h"
-#import "UIButton+IFAHelp.h"
+#import "UIButton+IFACoreUI_Help.h"
 #import "UICollectionView+IFACoreUI.h"
 #import "UIColor+IFACoreUI.h"
 #import "UIColor+IFACoreUI_WatchKit.h"
@@ -126,10 +126,10 @@
 #import "UIStoryboard+IFACoreUI.h"
 #import "UITableView+IFACoreUI.h"
 #import "UITableViewCell+IFACoreUI.h"
-#import "UITableViewController+IFADynamicCellHeight.h"
+#import "UITableViewController+IFACoreUI_DynamicCellHeight.h"
 #import "UIView+IFACoreUI.h"
 #import "UIViewController+IFACoreUI.h"
-#import "UIViewController+IFAHelp.h"
+#import "UIViewController+IFACoreUI_Help.h"
 #import "UIWebView+IFACoreUI.h"
 
 FOUNDATION_EXPORT double IFACoreUIVersionNumber;
