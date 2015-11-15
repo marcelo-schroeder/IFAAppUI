@@ -1,3 +1,9 @@
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Cocoapods compatible](https://img.shields.io/badge/Cocoapods-compatible-4BC51D.svg?style=flat)](https://cocoapods.org)
+![Version](https://img.shields.io/cocoapods/v/IFAAppUI.svg)
+![Licence](https://img.shields.io/cocoapods/l/IFAAppUI.svg)
+![Platform](https://img.shields.io/cocoapods/p/IFAAppUI.svg)
+
 IFAAppUI is a Cocoa Touch framework that helps you develop high quality iOS apps faster. It requires iOS 8 or greater.
 
 IFAAppUI has a dependency on the foundation provided by [IFACoreUI](https://github.com/marcelo-schroeder/IFACoreUI). If you need fenhanced API functionality that is safe to use by app extensions, then use IFACoreUI. IFAAppUI provides extra functionality on top of IFACoreUI that only apps can use (e.g. access to UIApplication).
