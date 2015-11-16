@@ -74,7 +74,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yw8J8FdQs0KqUnIIozqh+g/8N10=
+		ffc+n/YT8vNP8o1blwMvdKxvvt0=
+		</data>
+		<key>LICENSE</key>
+		<data>
+		pxPi0jqpJAjYPuJlri4oWx+nmpo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -150,6 +154,10 @@
 		<key>Headers/NSString+IFAFoundation.h</key>
 		<data>
 		/FzxdPM7ZfAxdF2cYP9NcCknxhw=
+		</data>
+		<key>LICENSE</key>
+		<data>
+		pxPi0jqpJAjYPuJlri4oWx+nmpo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
