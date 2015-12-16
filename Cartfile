@@ -1,1 +1,2 @@
-git "https://github.com/marcelo-schroeder/IFACoreUI.git"
+#git "https://github.com/marcelo-schroeder/IFACoreUI.git"
+git "https://github.com/marcelo-schroeder/IFACoreUI.git" "dev_NoCarthageFolder"
