@@ -5,7 +5,4 @@ platform :ios do
         cocoapods
         carthage
     end
-    lane :crap do
-        puts File.join(File.basename(Dir.getwd), '*.podspec')
-    end
 end
