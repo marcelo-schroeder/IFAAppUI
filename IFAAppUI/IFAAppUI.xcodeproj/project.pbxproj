@@ -204,6 +204,7 @@
 		F7650F311BEBF4AC00B97932 /* IFACoreUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IFACoreUI.framework; path = ../Carthage/Build/iOS/IFACoreUI.framework; sourceTree = "<group>"; };
 		F7650F341BEBF87300B97932 /* IFAUserNotificationSettingsManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAUserNotificationSettingsManagerTests.m; sourceTree = "<group>"; };
 		F7650F361BEBF8AF00B97932 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		F77FF8231C4ED6F700343884 /* ReleaseNotes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = ReleaseNotes.txt; path = ../ReleaseNotes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +241,7 @@
 		F7650AB51BE9548000B97932 = {
 			isa = PBXGroup;
 			children = (
+				F77FF8231C4ED6F700343884 /* ReleaseNotes.txt */,
 				F7650F311BEBF4AC00B97932 /* IFACoreUI.framework */,
 				F7650F2F1BEBF4A900B97932 /* IFAFoundation.framework */,
 				F7650F2D1BEBF41900B97932 /* Cartfile */,
