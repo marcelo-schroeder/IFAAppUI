@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'IFAAppUI'
-    s.version           = '1.0.2'
+    s.version           = '1.0.3'
     s.summary           = 'A Cocoa Touch framework to help you develop high quality iOS apps faster.'
     s.homepage          = 'https://github.com/marcelo-schroeder/IFAAppUI'
     s.license           = 'Apache-2.0'
