@@ -47,10 +47,10 @@
 
 - (void)setAppearanceOnViewDidLoadForViewController:(UIViewController *)a_viewController {
     [super setAppearanceOnViewDidLoadForViewController:a_viewController];
-    if ([a_viewController isKindOfClass:[IFAMasterDetailViewController class]]) {
-        IFAMasterDetailViewController *l_viewController = (IFAMasterDetailViewController *) a_viewController;
-        l_viewController.separatorView.backgroundColor = [self.class splitViewControllerDividerColour];
-    }
+//    if ([a_viewController isKindOfClass:[IFAMasterDetailViewController class]]) {
+//        IFAMasterDetailViewController *l_viewController = (IFAMasterDetailViewController *) a_viewController;
+//        l_viewController.separatorView.backgroundColor = [self.class splitViewControllerDividerColour];
+//    }
 }
 
 - (UIColor *)defaultTintColor {

@@ -18,6 +18,9 @@
 //  limitations under the License.
 //
 
+/**
+ * IMPORTANT: This class has been removed from the project due to API deprecations and a replacement has not been created yet.
+ */
 @interface IFASplitViewController : UISplitViewController <UISplitViewControllerDelegate>
 
 @property (nonatomic, strong) UIPopoverController *splitViewControllerPopoverController;

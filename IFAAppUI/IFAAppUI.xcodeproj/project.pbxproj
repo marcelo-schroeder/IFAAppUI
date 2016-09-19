@@ -54,16 +54,12 @@
 		F7650F041BEBF30B00B97932 /* IFAInternalWebBrowserActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EBE1BEBF30B00B97932 /* IFAInternalWebBrowserActivity.m */; };
 		F7650F051BEBF30B00B97932 /* IFAInternalWebBrowserViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EBF1BEBF30B00B97932 /* IFAInternalWebBrowserViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7650F061BEBF30B00B97932 /* IFAInternalWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EC01BEBF30B00B97932 /* IFAInternalWebBrowserViewController.m */; };
-		F7650F071BEBF30B00B97932 /* IFAMasterDetailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EC11BEBF30B00B97932 /* IFAMasterDetailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7650F081BEBF30B00B97932 /* IFAMasterDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EC21BEBF30B00B97932 /* IFAMasterDetailViewController.m */; };
 		F7650F091BEBF30B00B97932 /* IFAPhoneServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EC31BEBF30B00B97932 /* IFAPhoneServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7650F0A1BEBF30B00B97932 /* IFAPhoneServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EC41BEBF30B00B97932 /* IFAPhoneServiceManager.m */; };
 		F7650F0B1BEBF30B00B97932 /* IFAPreferencesFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EC51BEBF30B00B97932 /* IFAPreferencesFormViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7650F0C1BEBF30B00B97932 /* IFAPreferencesFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EC61BEBF30B00B97932 /* IFAPreferencesFormViewController.m */; };
 		F7650F0D1BEBF30B00B97932 /* IFASlidingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EC71BEBF30B00B97932 /* IFASlidingViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7650F0E1BEBF30B00B97932 /* IFASlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EC81BEBF30B00B97932 /* IFASlidingViewController.m */; };
-		F7650F0F1BEBF30B00B97932 /* IFASplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EC91BEBF30B00B97932 /* IFASplitViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7650F101BEBF30B00B97932 /* IFASplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650ECA1BEBF30B00B97932 /* IFASplitViewController.m */; };
 		F7650F111BEBF30B00B97932 /* IFAStaticPagingContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650ECB1BEBF30B00B97932 /* IFAStaticPagingContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7650F121BEBF30B00B97932 /* IFAStaticPagingContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650ECC1BEBF30B00B97932 /* IFAStaticPagingContainerViewController.m */; };
 		F7650F131BEBF30B00B97932 /* IFAThirdPartyCodeCreditsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650ECD1BEBF30B00B97932 /* IFAThirdPartyCodeCreditsViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -454,7 +450,6 @@
 				F74ACC1A1BEBFC3D00C4B73E /* UIImage+IFA_ECImageWithUIView.h in Headers */,
 				F7650EEC1BEBF30B00B97932 /* IFAAbstractPagingContainerViewController.h in Headers */,
 				F7650EFE1BEBF30B00B97932 /* IFADynamicPagingContainerViewControllerDataSource.h in Headers */,
-				F7650F0F1BEBF30B00B97932 /* IFASplitViewController.h in Headers */,
 				F7650EE51BEBF30B00B97932 /* IFAAppUI.h in Headers */,
 				F7650F0B1BEBF30B00B97932 /* IFAPreferencesFormViewController.h in Headers */,
 				F7650EFA1BEBF30B00B97932 /* IFAAppMapViewController.h in Headers */,
@@ -471,7 +466,6 @@
 				F7650EE81BEBF30B00B97932 /* IFAAboutInfoModel.h in Headers */,
 				F7650F111BEBF30B00B97932 /* IFAStaticPagingContainerViewController.h in Headers */,
 				F7650EFC1BEBF30B00B97932 /* IFADynamicPagingContainerViewController.h in Headers */,
-				F7650F071BEBF30B00B97932 /* IFAMasterDetailViewController.h in Headers */,
 				F7650F171BEBF30B00B97932 /* IFAUserNotificationSettingsManager.h in Headers */,
 				F7650F031BEBF30B00B97932 /* IFAInternalWebBrowserActivity.h in Headers */,
 				F7650F191BEBF30B00B97932 /* NSURL+IFAAppUI.h in Headers */,
@@ -689,12 +683,10 @@
 				F7650EDB1BEBF30B00B97932 /* UIImage+IFA_ECImageWithUIView.m in Sources */,
 				F7650EEF1BEBF30B00B97932 /* IFAAbstractWebBrowserActivity.m in Sources */,
 				F7650ED81BEBF30B00B97932 /* IFA_ECSlidingViewController.m in Sources */,
-				F7650F081BEBF30B00B97932 /* IFAMasterDetailViewController.m in Sources */,
 				F7650F141BEBF30B00B97932 /* IFAThirdPartyCodeCreditsViewController.m in Sources */,
 				F7650F061BEBF30B00B97932 /* IFAInternalWebBrowserViewController.m in Sources */,
 				F7650F041BEBF30B00B97932 /* IFAInternalWebBrowserActivity.m in Sources */,
 				F7650EE11BEBF30B00B97932 /* IFA_SVWebViewController.m in Sources */,
-				F7650F101BEBF30B00B97932 /* IFASplitViewController.m in Sources */,
 				F7650F0C1BEBF30B00B97932 /* IFAPreferencesFormViewController.m in Sources */,
 				F7650EDF1BEBF30B00B97932 /* IFA_SVModalWebViewController.m in Sources */,
 				F7650EE91BEBF30B00B97932 /* IFAAboutInfoModel.m in Sources */,

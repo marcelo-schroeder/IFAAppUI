@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
     s.requires_arc      = true
     s.source            = { :git => 'https://github.com/marcelo-schroeder/IFAAppUI.git', :tag => 'v' +  s.version.to_s }
     s.source_files      = 'IFAAppUI/IFAAppUI/classes/**/*.{h,m}'
+    s.exclude_files     = 'IFAAppUI/IFAAppUI/classes/IFAMasterDetailViewController.{h,m}', 'IFAAppUI/IFAAppUI/classes/IFASplitViewController.{h,m}'
     s.resource          = 'IFAAppUI/IFAAppUI/resources/**/*.*'
     s.dependency 'IFACoreUI'
 end

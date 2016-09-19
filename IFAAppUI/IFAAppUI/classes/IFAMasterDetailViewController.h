@@ -21,6 +21,9 @@
 @protocol IFAMasterDetailViewControllerDataSource;
 
 /**
+*
+* IMPORTANT: This class has been removed from the project due to API deprecations and a replacement has not been created yet.
+*
 * Highly customisable master-detail view controller.
 * This is an iPad only class at this stage.
 */
