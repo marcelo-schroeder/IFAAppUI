@@ -1,1 +1,1 @@
-Testing release automation (same contents as previous release).
+No code changes. Testing automated release process.
