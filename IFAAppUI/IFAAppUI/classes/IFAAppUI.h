@@ -40,8 +40,6 @@ FOUNDATION_EXPORT const unsigned char IFAAppUIVersionString[];
 // IFA_ECSlidingViewController
 #import "IFA_ECSlidingViewController.h"
 #import "UIImage+IFA_ECImageWithUIView.h"
-// IFA_SVWebViewController
-#import "IFA_SVWebViewController.h"
 // IBActionSheet
 #import "IFA_IBActionSheet.h"
 
@@ -60,8 +58,6 @@ FOUNDATION_EXPORT const unsigned char IFAAppUIVersionString[];
 #import "IFADynamicPagingContainerViewControllerDataSource.h"
 #import "IFAEmailManager.h"
 #import "IFAExternalWebBrowserActivity.h"
-#import "IFAInternalWebBrowserActivity.h"
-#import "IFAInternalWebBrowserViewController.h"
 //#import "IFAMasterDetailViewController.h"
 #import "IFAPhoneServiceManager.h"
 #import "IFAPreferencesFormViewController.h"

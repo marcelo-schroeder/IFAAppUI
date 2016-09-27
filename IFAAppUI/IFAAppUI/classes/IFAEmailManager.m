@@ -66,7 +66,8 @@
         
     }else{
         
-        [IFAUIUtils showAlertWithMessage:NSLocalizedStringFromTable(@"This device is not able to send email!", @"IFALocalizable", nil) title:NSLocalizedStringFromTable(@"Warning", @"IFALocalizable", nil)];
+        [IFAUIUtils presentAlertControllerWithTitle:NSLocalizedStringFromTable(@"Warning", @"IFALocalizable", nil)
+                                            message:NSLocalizedStringFromTable(@"This device is not able to send email!", @"IFALocalizable", nil)];
 
     }
 }
@@ -82,7 +83,8 @@
     
     if (result==MFMailComposeResultFailed) {
         [IFAUtils dispatchAsyncMainThreadBlock:^{
-            [IFAUIUtils showAlertWithMessage:NSLocalizedStringFromTable(@"The email has not been sent due to an error.", @"IFALocalizable", nil) title:NSLocalizedStringFromTable(@"Email Error", @"IFALocalizable", nil)];
+            [IFAUIUtils presentAlertControllerWithTitle:NSLocalizedStringFromTable(@"Email Error", @"IFALocalizable", nil)
+                                                message:NSLocalizedStringFromTable(@"The email has not been sent due to an error.", @"IFALocalizable", nil)];
         }                           afterDelay:0.1];
     }
     

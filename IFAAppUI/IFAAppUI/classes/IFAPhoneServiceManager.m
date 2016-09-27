@@ -15,6 +15,7 @@
 //  limitations under the License.
 //
 
+#import <IFACoreUI/IFAUIUtils.h>
 #import "IFAAppUI.h"
 
 
@@ -43,8 +44,8 @@ withAlertPresenterViewController:nil];
         NSString *l_alertTitle = @"";
         NSString *l_formattedPhoneNumber = [NSNumberFormatter ifa_stringFromAustralianPhoneNumberString:a_phoneNumber];
         l_alertMessage = [NSString stringWithFormat:NSLocalizedStringFromTable(@"Please call %@ using a phone", @"IFALocalizable", @"Please call <PHONE_NUMBER> using a phone"), l_formattedPhoneNumber];
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:l_alertTitle message:l_alertMessage delegate:self cancelButtonTitle:NSLocalizedStringFromTable(@"OK", @"IFALocalizable", nil) otherButtonTitles:nil, nil];
-        [alert show];
+        [IFAUIUtils presentAlertControllerWithTitle:l_alertTitle
+                                            message:l_alertMessage];
     }
 }
 #pragma clang diagnostic pop

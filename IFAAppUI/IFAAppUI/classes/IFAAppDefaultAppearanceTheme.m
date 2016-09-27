@@ -36,15 +36,6 @@
     }
 }
 
-- (UIViewController *)newInternalWebBrowserViewControllerWithUrl:(NSURL *)a_url{
-    return [self newInternalWebBrowserViewControllerWithUrl:a_url completionBlock:nil];
-}
-
-- (UIViewController *)newInternalWebBrowserViewControllerWithUrl:(NSURL *)a_url completionBlock:(void(^)(void))a_completionBlock{
-    IFAInternalWebBrowserViewController *l_viewController = [[IFAInternalWebBrowserViewController alloc] initWithURL:a_url completionBlock:a_completionBlock];
-    return l_viewController;
-}
-
 - (void)setAppearanceOnViewDidLoadForViewController:(UIViewController *)a_viewController {
     [super setAppearanceOnViewDidLoadForViewController:a_viewController];
 //    if ([a_viewController isKindOfClass:[IFAMasterDetailViewController class]]) {

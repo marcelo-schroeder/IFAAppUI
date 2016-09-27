@@ -40,88 +40,8 @@
 
 + (IFAMenuViewController *)mainMenuViewController;
 
-/**
-* Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in IFACoreUI instead.
-* @param aMessage Alert's message.
-* @param aTitle Alert's title.
-*/
-+ (void)showAlertWithMessage:(NSString *)aMessage
-                       title:(NSString *)aTitle;
-
-/**
-* Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in IFACoreUI instead.
-* @param aMessage Alert's message.
-* @param aTitle Alert's title.
-* @param aButtonLabel Button's label.
-*/
-+ (void)showAlertWithMessage:(NSString *)aMessage
-                       title:(NSString *)aTitle
-                 buttonLabel:(NSString *)aButtonLabel;
-
-/**
-* Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in IFACoreUI instead.
-* @param aMessage Alert's message.
-* @param aTitle Alert's title.
-* @param aDelegate Alert's delegate implementing UIAlertViewDelegate.
-*/
-+ (void)showAlertWithMessage:(NSString *)aMessage
-                       title:(NSString *)aTitle
-                    delegate:(id)aDelegate;
-
-/**
-* Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in IFACoreUI instead.
-* @param aMessage Alert's message.
-* @param aTitle Alert's title.
-* @param aDelegate Alert's delegate implementing UIAlertViewDelegate.
-* @param aButtonLabel Button's label.
-*/
-+ (void)showAlertWithMessage:(NSString *)aMessage
-                       title:(NSString *)aTitle
-                    delegate:(id)aDelegate
-                 buttonLabel:(NSString *)aButtonLabel;
-
-/**
-* Deprecated as of iOS 8. Use IFAUIUtils' presentAlertController* methods or UIViewController+IFACoreUI's ifa_presentAlertController* methods in IFACoreUI instead.
-* @param aMessage Alert's message.
-* @param aTitle Alert's title.
-* @param aDelegate Alert's delegate implementing UIAlertViewDelegate.
-* @param aButtonLabel Button's label.
-* @param aTag Tag for the alert view.
-*/
-+ (void)showAlertWithMessage:(NSString *)aMessage
-                       title:(NSString *)aTitle
-                    delegate:(id)aDelegate
-                 buttonLabel:(NSString *)aButtonLabel
-                         tag:(NSInteger)aTag;
-
-+ (void)showActionSheetWithMessage:(NSString *)aMessage
-      destructiveButtonLabelSuffix:(NSString *)aDestructiveButtonLabelSuffix
-                    viewController:(UIViewController *)aViewController
-                     barButtonItem:(UIBarButtonItem *)aBarButtonItem
-                          delegate:(id <UIActionSheetDelegate>)aDelegate;
-
-+ (void)showActionSheetWithMessage:(NSString *)aMessage
-      destructiveButtonLabelSuffix:(NSString *)aDestructiveButtonLabelSuffix
-                    viewController:(UIViewController *)aViewController
-                     barButtonItem:(UIBarButtonItem *)aBarButtonItem
-                          delegate:(id <UIActionSheetDelegate>)aDelegate
-                               tag:(NSInteger)aTag;
-
-+ (void)showActionSheetWithMessage:(NSString *)aMessage
-           cancelButtonLabelSuffix:(NSString *)aCancelButtonLabelSuffix
-      destructiveButtonLabelSuffix:(NSString *)aDestructiveButtonLabelSuffix
-                              view:(UIView *)aView
-                     barButtonItem:(UIBarButtonItem *)aBarButtonItem
-                          delegate:(id <UIActionSheetDelegate>)aDelegate
-                               tag:(NSInteger)aTag;
-
 + (UIView *)actionSheetShowInViewForViewController:(UIViewController *)a_viewController;
 
-// Uses the old UIAlertView
-+ (void)showServerErrorAlertViewForNetworkReachable:(BOOL)a_networkReachable
-                                  alertViewDelegate:(id <UIAlertViewDelegate>)a_alertViewDelegate;
-
-// Uses the new UIAlertController
 + (void)presentServerErrorAlertViewForNetworkReachable:(BOOL)a_networkReachable
                            withPresenterViewController:(UIViewController *)a_presenterViewController;
 

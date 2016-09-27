@@ -72,7 +72,8 @@
     [[IFAPersistenceManager sharedInstance] save];
     if (a_showAlert) {
         if ([UIApplication sharedApplication].applicationState==UIApplicationStateActive) {
-            [IFAUIUtils showAlertWithMessage:a_message title:a_title];
+            [IFAUIUtils presentAlertControllerWithTitle:a_title
+                                                message:a_message];
         }else if ([UIApplication sharedApplication].applicationState==UIApplicationStateBackground) {
             UILocalNotification *l_localNotification = [[UILocalNotification alloc] init];
             if (l_localNotification) {
@@ -98,99 +99,6 @@
     return l_menuViewController;
 }
 
-+ (void) showAlertWithMessage:(NSString*)aMessage title:(NSString*)aTitle{
-    [self showAlertWithMessage:aMessage
-                         title:aTitle
-                      delegate:nil
-                   buttonLabel:nil];
-}
-
-+ (void) showAlertWithMessage:(NSString*)aMessage title:(NSString*)aTitle buttonLabel:(NSString*)aButtonLabel{
-    [self showAlertWithMessage:aMessage
-                         title:aTitle
-                      delegate:nil
-                   buttonLabel:aButtonLabel];
-}
-
-+ (void) showAlertWithMessage:(NSString*)aMessage title:(NSString*)aTitle delegate:(id)aDelegate{
-    [self showAlertWithMessage:aMessage
-                         title:aTitle
-                      delegate:aDelegate
-                   buttonLabel:nil];
-}
-
-+ (void) showAlertWithMessage:(NSString*)aMessage
-                        title:(NSString*)aTitle
-                     delegate:(id)aDelegate
-                  buttonLabel:(NSString*)aButtonLabel{
-    [self showAlertWithMessage:aMessage title:aTitle delegate:aDelegate buttonLabel:aButtonLabel tag:NSNotFound];
-}
-
-+ (void) showAlertWithMessage:(NSString*)aMessage title:(NSString*)aTitle delegate:(id)aDelegate buttonLabel:(NSString*)aButtonLabel tag:(NSInteger)aTag{
-    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:aTitle message:aMessage
-                                                   delegate:aDelegate
-                                          cancelButtonTitle:(aButtonLabel==nil?NSLocalizedStringFromTable(@"Continue", @"IFALocalizable", nil):aButtonLabel)
-                                          otherButtonTitles:nil];
-//	alert.accessibilityLabel = aTitle;
-    if (aTag!=NSNotFound) {
-        alert.tag = aTag;
-    }
-    [alert show];
-}
-
-+ (void) showActionSheetWithMessage:(NSString*)aMessage
-       destructiveButtonLabelSuffix:(NSString*)aDestructiveButtonLabelSuffix
-                     viewController:(UIViewController*)aViewController
-                      barButtonItem:(UIBarButtonItem*)aBarButtonItem
-                           delegate:(id<UIActionSheetDelegate>)aDelegate{
-    [self showActionSheetWithMessage:aMessage
-        destructiveButtonLabelSuffix:aDestructiveButtonLabelSuffix
-                      viewController:aViewController
-                       barButtonItem:aBarButtonItem
-                            delegate:aDelegate
-                                 tag:0];
-}
-
-+ (void) showActionSheetWithMessage:(NSString*)aMessage
-       destructiveButtonLabelSuffix:(NSString*)aDestructiveButtonLabelSuffix
-                     viewController:(UIViewController*)aViewController
-                      barButtonItem:(UIBarButtonItem*)aBarButtonItem
-                           delegate:(id<UIActionSheetDelegate>)aDelegate
-                                tag:(NSInteger)aTag{
-    [self showActionSheetWithMessage:aMessage
-             cancelButtonLabelSuffix:nil
-        destructiveButtonLabelSuffix:aDestructiveButtonLabelSuffix
-                                view:[self actionSheetShowInViewForViewController:aViewController]
-                       barButtonItem:aBarButtonItem
-                            delegate:aDelegate
-                                 tag:aTag];
-}
-
-+ (void) showActionSheetWithMessage:(NSString*)aMessage
-            cancelButtonLabelSuffix:(NSString*)aCancelButtonLabelSuffix
-       destructiveButtonLabelSuffix:(NSString*)aDestructiveButtonLabelSuffix
-                               view:(UIView*)aView
-                      barButtonItem:(UIBarButtonItem*)aBarButtonItem
-                           delegate:(id<UIActionSheetDelegate>)aDelegate
-                                tag:(NSInteger)aTag{
-    UIActionSheet *actionSheet =
-            [[UIActionSheet alloc] initWithTitle:aMessage
-                                        delegate:aDelegate
-                               cancelButtonTitle:[NSLocalizedStringFromTable(@"No", @"IFALocalizable", nil) stringByAppendingString:(aCancelButtonLabelSuffix?[NSString stringWithFormat:@", %@", aCancelButtonLabelSuffix]:@"")]
-                          destructiveButtonTitle:[NSLocalizedStringFromTable(@"Yes, ", @"IFALocalizable", nil) stringByAppendingString:aDestructiveButtonLabelSuffix]
-                               otherButtonTitles:nil];
-    actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
-//    NSLog(@"aView: %@", [aView description]);
-    if ([IFAUIUtils isIPad] && aBarButtonItem) {
-        [actionSheet showFromBarButtonItem:aBarButtonItem animated:YES];
-    }else {
-        [actionSheet showInView:aView];
-    }
-    if(aTag!=0){
-        actionSheet.tag = aTag;
-    }
-}
-
 +(UIView*)actionSheetShowInViewForViewController:(UIViewController*)a_viewController{
     UIView *l_view = nil;
     if (!(l_view = a_viewController.tabBarController.view)) {
@@ -202,15 +110,6 @@
         }
     }
     return l_view;
-}
-
-+ (void)showServerErrorAlertViewForNetworkReachable:(BOOL)a_networkReachable
-                                  alertViewDelegate:(id <UIAlertViewDelegate>)a_alertViewDelegate {
-    NSString *title = [self serverErrorAlertTitleForNetworkReachable:a_networkReachable];
-    NSString *message = [self serverErrorAlertMessageForNetworkReachable:a_networkReachable];
-    [IFAUIUtils showAlertWithMessage:message
-                               title:title
-                            delegate:a_alertViewDelegate];
 }
 
 + (void)presentServerErrorAlertViewForNetworkReachable:(BOOL)a_networkReachable

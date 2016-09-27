@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F674745BC489B722ADBD13D990675421420F56BC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8257E221F83DBF6D62CC4484F2CB6D7D7DA5A2DC" : 9223372036854775807,
+    "741A7C63B7E3F692830C437C97747E56FB74D2F2" : 9223372036854775807,
+    "F674745BC489B722ADBD13D990675421420F56BC" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "69931CA8-FEB7-4798-931C-99DDF9A1F4B5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8257E221F83DBF6D62CC4484F2CB6D7D7DA5A2DC" : "..\/IFAFoundation\/IFAFoundation_development",
+    "741A7C63B7E3F692830C437C97747E56FB74D2F2" : "..\/IFACoreUI\/IFACoreUI_development",
+    "F674745BC489B722ADBD13D990675421420F56BC" : "IFAAppUI_development\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IFAAppUI",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "IFAAppUI.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/marcelo-schroeder\/IFACoreUI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "741A7C63B7E3F692830C437C97747E56FB74D2F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/marcelo-schroeder\/IFAFoundation.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8257E221F83DBF6D62CC4484F2CB6D7D7DA5A2DC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/marcelo-schroeder\/IFAAppUI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F674745BC489B722ADBD13D990675421420F56BC"
+    }
+  ]
+}
