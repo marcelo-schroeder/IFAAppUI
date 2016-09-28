@@ -5,6 +5,7 @@
 
 #import "IFAAppUI.h"
 
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < 100000
 
 @interface IFAUserNotificationSettingsManager ()
 @property(nonatomic, strong) IFAUserNotificationSettingsManagerCompletionBlock pendingRegistrationCompletionBlock;
@@ -39,3 +40,5 @@
 }
 
 @end
+
+#endif

@@ -31,12 +31,6 @@
 		F7650EF11BEBF30B00B97932 /* IFAAppDefaultAppearanceTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EAB1BEBF30B00B97932 /* IFAAppDefaultAppearanceTheme.m */; };
 		F7650EF21BEBF30B00B97932 /* IFAApplicationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EAC1BEBF30B00B97932 /* IFAApplicationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7650EF31BEBF30B00B97932 /* IFAApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EAD1BEBF30B00B97932 /* IFAApplicationDelegate.m */; };
-		F7650EF41BEBF30B00B97932 /* IFAApplicationLog+IFAAppUI.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EAE1BEBF30B00B97932 /* IFAApplicationLog+IFAAppUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7650EF51BEBF30B00B97932 /* IFAApplicationLog+IFAAppUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EAF1BEBF30B00B97932 /* IFAApplicationLog+IFAAppUI.m */; };
-		F7650EF61BEBF30B00B97932 /* IFAApplicationLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EB01BEBF30B00B97932 /* IFAApplicationLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7650EF71BEBF30B00B97932 /* IFAApplicationLog.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EB11BEBF30B00B97932 /* IFAApplicationLog.m */; };
-		F7650EF81BEBF30B00B97932 /* IFAApplicationLogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EB21BEBF30B00B97932 /* IFAApplicationLogViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7650EF91BEBF30B00B97932 /* IFAApplicationLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EB31BEBF30B00B97932 /* IFAApplicationLogViewController.m */; };
 		F7650EFA1BEBF30B00B97932 /* IFAAppMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EB41BEBF30B00B97932 /* IFAAppMapViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7650EFB1BEBF30B00B97932 /* IFAAppMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7650EB51BEBF30B00B97932 /* IFAAppMapViewController.m */; };
 		F7650EFC1BEBF30B00B97932 /* IFADynamicPagingContainerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F7650EB61BEBF30B00B97932 /* IFADynamicPagingContainerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -132,12 +126,6 @@
 		F7650EAB1BEBF30B00B97932 /* IFAAppDefaultAppearanceTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAAppDefaultAppearanceTheme.m; sourceTree = "<group>"; };
 		F7650EAC1BEBF30B00B97932 /* IFAApplicationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAApplicationDelegate.h; sourceTree = "<group>"; };
 		F7650EAD1BEBF30B00B97932 /* IFAApplicationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAApplicationDelegate.m; sourceTree = "<group>"; };
-		F7650EAE1BEBF30B00B97932 /* IFAApplicationLog+IFAAppUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IFAApplicationLog+IFAAppUI.h"; sourceTree = "<group>"; };
-		F7650EAF1BEBF30B00B97932 /* IFAApplicationLog+IFAAppUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IFAApplicationLog+IFAAppUI.m"; sourceTree = "<group>"; };
-		F7650EB01BEBF30B00B97932 /* IFAApplicationLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAApplicationLog.h; sourceTree = "<group>"; };
-		F7650EB11BEBF30B00B97932 /* IFAApplicationLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAApplicationLog.m; sourceTree = "<group>"; };
-		F7650EB21BEBF30B00B97932 /* IFAApplicationLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAApplicationLogViewController.h; sourceTree = "<group>"; };
-		F7650EB31BEBF30B00B97932 /* IFAApplicationLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAApplicationLogViewController.m; sourceTree = "<group>"; };
 		F7650EB41BEBF30B00B97932 /* IFAAppMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAAppMapViewController.h; sourceTree = "<group>"; };
 		F7650EB51BEBF30B00B97932 /* IFAAppMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAAppMapViewController.m; sourceTree = "<group>"; };
 		F7650EB61BEBF30B00B97932 /* IFADynamicPagingContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFADynamicPagingContainerViewController.h; sourceTree = "<group>"; };
@@ -271,12 +259,6 @@
 				F7650EAB1BEBF30B00B97932 /* IFAAppDefaultAppearanceTheme.m */,
 				F7650EAC1BEBF30B00B97932 /* IFAApplicationDelegate.h */,
 				F7650EAD1BEBF30B00B97932 /* IFAApplicationDelegate.m */,
-				F7650EAE1BEBF30B00B97932 /* IFAApplicationLog+IFAAppUI.h */,
-				F7650EAF1BEBF30B00B97932 /* IFAApplicationLog+IFAAppUI.m */,
-				F7650EB01BEBF30B00B97932 /* IFAApplicationLog.h */,
-				F7650EB11BEBF30B00B97932 /* IFAApplicationLog.m */,
-				F7650EB21BEBF30B00B97932 /* IFAApplicationLogViewController.h */,
-				F7650EB31BEBF30B00B97932 /* IFAApplicationLogViewController.m */,
 				F7650EB41BEBF30B00B97932 /* IFAAppMapViewController.h */,
 				F7650EB51BEBF30B00B97932 /* IFAAppMapViewController.m */,
 				F7650EB61BEBF30B00B97932 /* IFADynamicPagingContainerViewController.h */,
@@ -390,7 +372,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7650EF81BEBF30B00B97932 /* IFAApplicationLogViewController.h in Headers */,
 				F7650F131BEBF30B00B97932 /* IFAThirdPartyCodeCreditsViewController.h in Headers */,
 				F74ACC1A1BEBFC3D00C4B73E /* UIImage+IFA_ECImageWithUIView.h in Headers */,
 				F7650EEC1BEBF30B00B97932 /* IFAAbstractPagingContainerViewController.h in Headers */,
@@ -415,9 +396,7 @@
 				F7650F0D1BEBF30B00B97932 /* IFASlidingViewController.h in Headers */,
 				F7650EE61BEBF30B00B97932 /* IFAAboutFormViewController.h in Headers */,
 				F7650ED71BEBF30B00B97932 /* IFA_ECSlidingViewController.h in Headers */,
-				F7650EF61BEBF30B00B97932 /* IFAApplicationLog.h in Headers */,
 				F7650F151BEBF30B00B97932 /* IFAUIUtils+IFAAppUI.h in Headers */,
-				F7650EF41BEBF30B00B97932 /* IFAApplicationLog+IFAAppUI.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,11 +590,9 @@
 				F7650F0A1BEBF30B00B97932 /* IFAPhoneServiceManager.m in Sources */,
 				F7650EF31BEBF30B00B97932 /* IFAApplicationDelegate.m in Sources */,
 				F7650F001BEBF30B00B97932 /* IFAEmailManager.m in Sources */,
-				F7650EF51BEBF30B00B97932 /* IFAApplicationLog+IFAAppUI.m in Sources */,
 				F7650F021BEBF30B00B97932 /* IFAExternalWebBrowserActivity.m in Sources */,
 				F7650F1A1BEBF30B00B97932 /* NSURL+IFAAppUI.m in Sources */,
 				F7650EFD1BEBF30B00B97932 /* IFADynamicPagingContainerViewController.m in Sources */,
-				F7650EF91BEBF30B00B97932 /* IFAApplicationLogViewController.m in Sources */,
 				F7650EED1BEBF30B00B97932 /* IFAAbstractPagingContainerViewController.m in Sources */,
 				F7650F1C1BEBF30B00B97932 /* UIViewController+IFAAppUI.m in Sources */,
 				F7650EFB1BEBF30B00B97932 /* IFAAppMapViewController.m in Sources */,
@@ -627,7 +604,6 @@
 				F7650F0C1BEBF30B00B97932 /* IFAPreferencesFormViewController.m in Sources */,
 				F7650EE91BEBF30B00B97932 /* IFAAboutInfoModel.m in Sources */,
 				F7650F121BEBF30B00B97932 /* IFAStaticPagingContainerViewController.m in Sources */,
-				F7650EF71BEBF30B00B97932 /* IFAApplicationLog.m in Sources */,
 				F7650F181BEBF30B00B97932 /* IFAUserNotificationSettingsManager.m in Sources */,
 				F7650EF11BEBF30B00B97932 /* IFAAppDefaultAppearanceTheme.m in Sources */,
 				F7650F0E1BEBF30B00B97932 /* IFASlidingViewController.m in Sources */,

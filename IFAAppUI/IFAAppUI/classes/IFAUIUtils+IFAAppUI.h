@@ -29,15 +29,6 @@
 
 + (CGRect)statusBarFrame;
 
-+ (void)appLogWithTitle:(NSString *)a_title
-                message:(NSString *)a_message
-               location:(CLLocation *)a_location
-                  error:(NSError *)a_error
-              showAlert:(BOOL)a_showAlert;
-
-+ (void)appLogWithTitle:(NSString *)a_title
-                message:(NSString *)a_message;
-
 + (IFAMenuViewController *)mainMenuViewController;
 
 + (UIView *)actionSheetShowInViewForViewController:(UIViewController *)a_viewController;

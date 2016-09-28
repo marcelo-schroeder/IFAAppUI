@@ -76,9 +76,11 @@
 	[[IFADynamicCache sharedInstance] removeAllObjects];
 }
 
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < 100000
 - (void)                application:(UIApplication *)application
 didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings {
     [[IFAUserNotificationSettingsManager sharedInstance] notifyRegistrationOfUserNotificationSettings:notificationSettings];
 }
+#endif
 
 @end

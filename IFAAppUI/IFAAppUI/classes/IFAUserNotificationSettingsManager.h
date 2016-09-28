@@ -5,6 +5,8 @@
 
 #import <Foundation/Foundation.h>
 
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < 100000
+
 /**
 * User notification settings registration completion block.
 * @param The user notifications settings that have been registered.
@@ -36,3 +38,5 @@ typedef void (^IFAUserNotificationSettingsManagerCompletionBlock)(UIUserNotifica
 + (instancetype)sharedInstance;
 
 @end
+
+#endif
