@@ -9,23 +9,10 @@ PODS:
   - OCMock (3.2)
 
 DEPENDENCIES:
-  - IFACoreUI (from `/Users/mschroeder/myfiles/projects/Xcode/IFACoreUI/IFACoreUI_development`)
-  - IFAFoundation (from `https://github.com/marcelo-schroeder/IFAFoundation.git`, branch `dev_iOS10_Cocoapods1`)
+  - IFACoreUI
   - IFATestingSupport
   - OCHamcrest
   - OCMock
-
-EXTERNAL SOURCES:
-  IFACoreUI:
-    :path: /Users/mschroeder/myfiles/projects/Xcode/IFACoreUI/IFACoreUI_development
-  IFAFoundation:
-    :branch: dev_iOS10_Cocoapods1
-    :git: https://github.com/marcelo-schroeder/IFAFoundation.git
-
-CHECKOUT OPTIONS:
-  IFAFoundation:
-    :commit: 58c5775bad9814d9cdf6930de2a5fc686877177a
-    :git: https://github.com/marcelo-schroeder/IFAFoundation.git
 
 SPEC CHECKSUMS:
   IFACoreUI: f5cb202a579cfcca48d26ac568007c96f03ffe2c
@@ -34,6 +21,6 @@ SPEC CHECKSUMS:
   OCHamcrest: cd63d27f48a266d4412c0b295b01b8f0940efa81
   OCMock: 28def049ef47f996b515a8eeea958be7ccab2dbb
 
-PODFILE CHECKSUM: fb34a2cf61d5e3402adcce7ee3ddc0c9822924a3
+PODFILE CHECKSUM: 334385efafed2b67289d66ff796d17facee1e36a
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1
