@@ -52,7 +52,7 @@
     if ([viewController isKindOfClass:[IFAAlertContainerViewController class]]) {
         return [[UIApplication sharedApplication] statusBarStyle];
     } else {
-        return [super preferredStatusBarStyleForViewController:viewController];
+        return UIStatusBarStyleDefault;
     }
 }
 

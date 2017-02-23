@@ -1,1 +1,2 @@
-iOS 10 update.
+[CHANGE] Minor refactoring.
+[CHANGE] .gitignore updated.
