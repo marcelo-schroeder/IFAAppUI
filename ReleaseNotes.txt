@@ -1,1 +1,2 @@
 [CHANGE] Minor refactoring.
+[CHANGE] .gitignore updated.
