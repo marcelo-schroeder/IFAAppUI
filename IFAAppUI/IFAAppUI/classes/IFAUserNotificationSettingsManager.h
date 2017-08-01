@@ -9,7 +9,7 @@
 
 /**
 * User notification settings registration completion block.
-* @param The user notifications settings that have been registered.
+* @param a_notificationSettings The user notifications settings that have been registered.
 */
 typedef void (^IFAUserNotificationSettingsManagerCompletionBlock)(UIUserNotificationSettings *a_notificationSettings);
 

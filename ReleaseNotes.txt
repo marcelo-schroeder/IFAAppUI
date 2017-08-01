@@ -1,2 +1,1 @@
-[CHANGE] Minor refactoring.
-[CHANGE] .gitignore updated.
+[FIX] Fixed documentation warning.
