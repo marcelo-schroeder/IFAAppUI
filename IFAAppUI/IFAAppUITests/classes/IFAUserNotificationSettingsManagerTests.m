@@ -5,8 +5,9 @@
 //  Created by: Marcelo Schroeder
 //
 
-#import "IFACommonTests.h"
 @import IFAAppUI;
+@import XCTest;
+@import OCMock;
 
 @interface IFAUserNotificationSettingsManagerTests : XCTestCase
 @end
