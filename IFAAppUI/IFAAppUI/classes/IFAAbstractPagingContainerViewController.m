@@ -255,7 +255,7 @@
 //    NSLog(@"  l_contentTopInset = %f", l_contentTopInset);
 //    NSLog(@"  l_contentBottomInset = %f", l_contentBottomInset);
     __block NSUInteger l_contentWidth = 0;
-    void (^l_uiChangesBlock)() = ^{
+    void (^l_uiChangesBlock)(void) = ^{
         for (NSUInteger i=0; i<[self.childViewControllers count]; i++) {
 //        NSLog(@"    i = %u", i);
             UIViewController *l_viewController = (self.childViewControllers)[i];

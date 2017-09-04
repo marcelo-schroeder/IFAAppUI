@@ -36,7 +36,7 @@
 -(BOOL)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController{
     BOOL success = [[UIApplication sharedApplication] canOpenURL:self];
     if (success) {
-        void (^actionBlock)() = ^{
+        void (^actionBlock)(void) = ^{
 #if __IPHONE_OS_VERSION_MIN_REQUIRED < 100000
             [[UIApplication sharedApplication] openURL:self];
 #else
