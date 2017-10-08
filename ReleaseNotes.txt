@@ -1,2 +1,3 @@
 [CHANGE] Lowest iOS version supported is now 10.
 [CHANGE] IFAUserNotificationSettingsManager has been removed as it became obsolute with the new UserNotifications framework in iOS 10.
+[FIX] Fixed layout issues in IFAAbstractPagingContainerViewController introduced by iOS 11.

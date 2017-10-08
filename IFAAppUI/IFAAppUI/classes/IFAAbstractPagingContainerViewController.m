@@ -268,8 +268,12 @@
             l_contentWidth += l_viewController.view.frame.size.width;
             if ([l_viewController isKindOfClass:[UITableViewController class]]) {
                 UITableViewController *l_tableViewController = (UITableViewController *) l_viewController;
-                l_tableViewController.tableView.contentInset = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
-                l_tableViewController.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
+                if (@available(iOS 11.0, *)) {
+                    // No need to adjust content insets and scroll indicator insets
+                } else {
+                    l_tableViewController.tableView.contentInset = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
+                    l_tableViewController.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
+                }
             }
         }
     };
@@ -279,6 +283,7 @@
         l_uiChangesBlock();
     }
     self.scrollView.contentSize = CGSizeMake(l_contentWidth, self.view.frame.size.height);
+    [self.scrollView bringSubviewToFront:self.ifa_toolbar];
 }
 
 #pragma mark - Private
