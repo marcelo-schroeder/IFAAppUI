@@ -251,7 +251,7 @@
     UIViewController *l_visibleViewController = self.navigationController.visibleViewController;
     BOOL l_shouldShowToolbar = (l_visibleViewController.editing && l_visibleViewController.ifa_editModeToolbarItems.count) || (!l_visibleViewController.editing && l_visibleViewController.ifa_nonEditModeToolbarItems.count);
     CGFloat l_toolbarHeight = l_shouldShowToolbar ? l_toolbar.bounds.size.height : 0;
-    CGFloat l_contentBottomInset = l_toolbarHeight + self.tabBarController.tabBar.bounds.size.height;
+    CGFloat l_contentBottomInset = l_toolbarHeight;
 //    NSLog(@"  l_contentTopInset = %f", l_contentTopInset);
 //    NSLog(@"  l_contentBottomInset = %f", l_contentBottomInset);
     __block NSUInteger l_contentWidth = 0;
