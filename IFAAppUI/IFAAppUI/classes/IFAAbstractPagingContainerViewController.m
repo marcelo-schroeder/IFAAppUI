@@ -283,7 +283,11 @@
         l_uiChangesBlock();
     }
     self.scrollView.contentSize = CGSizeMake(l_contentWidth, self.view.frame.size.height);
-    [self.scrollView bringSubviewToFront:self.ifa_toolbar];
+    if (@available(iOS 11.0, *)) {
+        if (self.ifa_needsToolbar) {
+            [self.scrollView bringSubviewToFront:self.ifa_toolbar];
+        }
+    }
 }
 
 #pragma mark - Private
