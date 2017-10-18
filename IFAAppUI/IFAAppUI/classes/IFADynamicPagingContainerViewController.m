@@ -291,6 +291,7 @@ static NSArray *c_pageDataLoadingOrder = nil;
         case IFAScrollPageInit:
             self.lastFullChildViewControllerUpdate = [NSDate date];
             self.pagingContainerChildViewControllers = [NSMutableArray new];
+            self.childViewControllerCentre = nil;
             self.childViewControllerCentre = [self IFA_requestChildViewControllerFromDataSourceForPage:IFAScrollPageCentre];
             self.childViewControllerLeftNear = [self IFA_requestChildViewControllerFromDataSourceForPage:IFAScrollPageLeftNear];
             self.childViewControllerLeftFar = [self IFA_requestChildViewControllerFromDataSourceForPage:IFAScrollPageLeftFar];
