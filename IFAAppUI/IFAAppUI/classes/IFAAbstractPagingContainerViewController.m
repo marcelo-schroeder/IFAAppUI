@@ -242,6 +242,8 @@
 
 -(void)updateContentLayoutWithAnimation:(BOOL)a_animated {
 //    NSLog(@"updateContentLayout");
+
+    // This block is only used by iOS 10.
     CGFloat l_statusBarHeight = [IFAUIUtils statusBarSize].height;
     if (l_statusBarHeight==IFAIPhoneStatusBarDoubleHeight) {
         l_statusBarHeight = IFAIPhoneStatusBarDoubleHeight / 2; // The extra height added by the double height status should not be added, for some strange reason...
@@ -254,6 +256,7 @@
     CGFloat l_contentBottomInset = l_toolbarHeight;
 //    NSLog(@"  l_contentTopInset = %f", l_contentTopInset);
 //    NSLog(@"  l_contentBottomInset = %f", l_contentBottomInset);
+
     __block NSUInteger l_contentWidth = 0;
     void (^l_uiChangesBlock)(void) = ^{
         for (NSUInteger i=0; i<[self.childViewControllers count]; i++) {
