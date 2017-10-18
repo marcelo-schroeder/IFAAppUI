@@ -103,6 +103,9 @@
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
     [self m_configureStatusBarFrameChangeNotificationObservers];
+    if (@available(iOS 11.0, *)) {
+        self.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+    }
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -243,13 +246,17 @@
 -(void)updateContentLayoutWithAnimation:(BOOL)a_animated {
 //    NSLog(@"updateContentLayout");
 
-    // This block is only used by iOS 10.
     CGFloat l_statusBarHeight = [IFAUIUtils statusBarSize].height;
     if (l_statusBarHeight==IFAIPhoneStatusBarDoubleHeight) {
         l_statusBarHeight = IFAIPhoneStatusBarDoubleHeight / 2; // The extra height added by the double height status should not be added, for some strange reason...
     }
     CGFloat l_contentTopInset = l_statusBarHeight + self.navigationController.navigationBar.bounds.size.height;
     UIToolbar *l_toolbar = self.navigationController.toolbar;
+    if (@available(iOS 11.0, *)) {
+        l_toolbar = self.ifa_toolbar;
+    } else {
+        l_toolbar = self.navigationController.toolbar;
+    }
     UIViewController *l_visibleViewController = self.navigationController.visibleViewController;
     BOOL l_shouldShowToolbar = (l_visibleViewController.editing && l_visibleViewController.ifa_editModeToolbarItems.count) || (!l_visibleViewController.editing && l_visibleViewController.ifa_nonEditModeToolbarItems.count);
     CGFloat l_toolbarHeight = l_shouldShowToolbar ? l_toolbar.bounds.size.height : 0;
@@ -272,11 +279,10 @@
             if ([l_viewController isKindOfClass:[UITableViewController class]]) {
                 UITableViewController *l_tableViewController = (UITableViewController *) l_viewController;
                 if (@available(iOS 11.0, *)) {
-                    // No need to adjust content insets and scroll indicator insets
-                } else {
-                    l_tableViewController.tableView.contentInset = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
-                    l_tableViewController.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
+                    l_tableViewController.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
                 }
+                l_tableViewController.tableView.contentInset = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
+                l_tableViewController.tableView.scrollIndicatorInsets = UIEdgeInsetsMake(l_contentTopInset, 0, l_contentBottomInset, 0);
             }
         }
     };
