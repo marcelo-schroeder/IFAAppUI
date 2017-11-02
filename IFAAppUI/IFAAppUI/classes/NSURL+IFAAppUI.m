@@ -36,14 +36,10 @@
 -(BOOL)ifa_openWithAlertPresenterViewController:(UIViewController *)a_alertPresenterViewController{
     BOOL success = [[UIApplication sharedApplication] canOpenURL:self];
     if (success) {
-        void (^actionBlock)() = ^{
-#if __IPHONE_OS_VERSION_MIN_REQUIRED < 100000
-            [[UIApplication sharedApplication] openURL:self];
-#else
+        void (^actionBlock)(void) = ^{
             [[UIApplication sharedApplication] openURL:self
                                                options:@{}
                                      completionHandler:nil];
-#endif
         };
         if (a_alertPresenterViewController) {
             NSString *title = [NSString stringWithFormat:NSLocalizedStringFromTable(@"You will now leave the %@ app", @"IFALocalizable", @"You will now leave the <APP_NAME> app"), [IFAUtils appName]];
