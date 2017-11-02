@@ -63,7 +63,6 @@ FOUNDATION_EXPORT const unsigned char IFAAppUIVersionString[];
 #import "IFAStaticPagingContainerViewController.h"
 #import "IFAThirdPartyCodeCreditsViewController.h"
 #import "NSURL+IFAAppUI.h"
-#import "IFAUserNotificationSettingsManager.h"
 #import "UIViewController+IFAAppUI.h"
 #import "IFAUIUtils+IFAAppUI.h"
 #import "IFAAppDefaultAppearanceTheme.h"
