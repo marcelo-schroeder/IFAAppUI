@@ -10,10 +10,10 @@ IFAAppUI has a dependency on the foundation provided by [IFACoreUI](https://gith
 
 Compatibility information:
 
-| IFAFoundation version  | Xcode version | iOS deployment target | Swift version |
-| ---------------------- | ------------- | --------------------- | ------------- |
-| 1.x                    | 8.x           | 9.0                   | 3.2           |
-| 2.x                    | 9.x           | 10.0                  | 4.0           |
+| IFAAppUI version | Xcode version | iOS deployment target | Swift version |
+| ---------------- | ------------- | --------------------- | ------------- |
+| 1.x              | 8.x           | 9.0                   | 3.2           |
+| 2.x              | 9.x           | 10.0                  | 4.0           |
 
 This framework has been used in a few projects for my clients.
 
