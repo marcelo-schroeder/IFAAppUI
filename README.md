@@ -1,5 +1,5 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![Cocoapods compatible](https://img.shields.io/badge/Cocoapods-compatible-4BC51D.svg?style=flat)](https://cocoapods.org)
+[![CocoaPods compatible](https://img.shields.io/badge/CocoaPods-compatible-4BC51D.svg?style=flat)](https://cocoapods.org)
 ![Version](https://img.shields.io/cocoapods/v/IFAAppUI.svg)
 ![Licence](https://img.shields.io/cocoapods/l/IFAAppUI.svg)
 ![Platform](https://img.shields.io/cocoapods/p/IFAAppUI.svg)
@@ -114,7 +114,7 @@ Features:
 
 ## How to integrate IFAAppUI ##
 
-IFAAppUI can be integrated to your project via Cocoapods or Carthage.
+IFAAppUI can be integrated to your project via CocoaPods or Carthage.
 
 ## How to use IFAAppUI ##
 
